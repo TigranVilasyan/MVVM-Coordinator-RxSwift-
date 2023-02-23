@@ -1,8 +1,8 @@
 //
 //  SceneDelegate.swift
-//  MVVM+C
+//  SemanticSegmentation
 //
-//  Created by Tigran VIasyan on 17.02.23.
+//  Created by Tigran VIasyan on 30.01.23.
 //
 
 import UIKit
@@ -10,13 +10,23 @@ import UIKit
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
     var window: UIWindow?
-
+    var scene: UIWindowScene?
+    var coordinator: Coordinator?
 
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
         // Use this method to optionally configure and attach the UIWindow `window` to the provided UIWindowScene `scene`.
         // If using a storyboard, the `window` property will automatically be initialized and attached to the scene.
         // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
-        guard let _ = (scene as? UIWindowScene) else { return }
+        guard let scene = (scene as? UIWindowScene) else { return }
+        self.scene = scene
+        configCoordinator()
+    }
+    
+    func configCoordinator() {
+        self.coordinator = Dependency.shared.resolver.resolve(Coordinator.self)! as! AppCoordinator
+        //self.coordinator?.window = UIWindow(frame: UIScreen.main.bounds)
+        self.coordinator?.windowScene = scene
+        let _ = self.coordinator?.execute(step: AppStep.root)
     }
 
     func sceneDidDisconnect(_ scene: UIScene) {
