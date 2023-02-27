@@ -10,4 +10,5 @@ target 'MVVM+C' do
 pod 'ReactiveSwift', '~> 6.1'
 pod 'Swinject'
 pod 'Alamofire'
+pod 'SDWebImage', '~> 5.0'
 end

@@ -26,7 +26,7 @@ class AppCoordinator: Coordinator {
     var navBar = UINavigationController(nibName: nil, bundle: nil)
     
     func loadFirstViewController() {
-        let vc = Dependency.shared.resolver.resolve(FirstViewController.self)!
+        let vc = Dependency.shared.resolver.resolve(CoinsViewController.self)!
         guard let windowScene = windowScene else { return}
         let window = UIWindow(windowScene: windowScene)
         navBar = UINavigationController(rootViewController: vc)

@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		6F5021D429A62432009BD2A0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F5021D329A62432009BD2A0 /* SceneDelegate.swift */; };
 		6F85023E299F9EE0001F9B5A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F85023D299F9EE0001F9B5A /* AppDelegate.swift */; };
-		6F850242299F9EE0001F9B5A /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F850241299F9EE0001F9B5A /* FirstViewController.swift */; };
+		6F850242299F9EE0001F9B5A /* CoinsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F850241299F9EE0001F9B5A /* CoinsViewController.swift */; };
 		6F850245299F9EE0001F9B5A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F850243299F9EE0001F9B5A /* Main.storyboard */; };
 		6F850247299F9EE1001F9B5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F850246299F9EE1001F9B5A /* Assets.xcassets */; };
 		6F85024A299F9EE1001F9B5A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F850248299F9EE1001F9B5A /* LaunchScreen.storyboard */; };
@@ -18,7 +18,7 @@
 		6F85025B299FA0F7001F9B5A /* Dependency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F85025A299FA0F7001F9B5A /* Dependency.swift */; };
 		6F85025D299FA11E001F9B5A /* ViewControllerAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F85025C299FA11E001F9B5A /* ViewControllerAssembly.swift */; };
 		6F85025F299FA129001F9B5A /* ViewModelAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F85025E299FA129001F9B5A /* ViewModelAssembly.swift */; };
-		6F850263299FA1AC001F9B5A /* FirstViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F850262299FA1AC001F9B5A /* FirstViewModel.swift */; };
+		6F850263299FA1AC001F9B5A /* CoinsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F850262299FA1AC001F9B5A /* CoinsViewModel.swift */; };
 		6F8A205F29A64DEE007D51B0 /* Coin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F8A205E29A64DEE007D51B0 /* Coin.swift */; };
 		6F8A206129A64EA7007D51B0 /* NetworkRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F8A206029A64EA7007D51B0 /* NetworkRequest.swift */; };
 		6F8A206429A6504A007D51B0 /* CoinsRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F8A206329A6504A007D51B0 /* CoinsRequest.swift */; };
@@ -26,6 +26,9 @@
 		6F8A206C29A756B7007D51B0 /* APIServicePrtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F8A206B29A756B7007D51B0 /* APIServicePrtocol.swift */; };
 		6F8A206E29A75700007D51B0 /* APIServiceQueryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F8A206D29A75700007D51B0 /* APIServiceQueryProtocol.swift */; };
 		6F8A207129A75EA5007D51B0 /* URLFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F8A207029A75EA5007D51B0 /* URLFactory.swift */; };
+		6FD80F4529A799D90073B085 /* CoinsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FD80F4329A799D90073B085 /* CoinsTableViewCell.swift */; };
+		6FD80F4629A799D90073B085 /* CoinsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6FD80F4429A799D90073B085 /* CoinsTableViewCell.xib */; };
+		6FD80F4929A79C070073B085 /* TableView+Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FD80F4829A79C070073B085 /* TableView+Extention.swift */; };
 		6FF8684229A0D3EB008BF870 /* Controllers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FF8684129A0D3EB008BF870 /* Controllers.swift */; };
 		6FF8684729A0D712008BF870 /* AppStep.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FF8684629A0D712008BF870 /* AppStep.swift */; };
 		6FF8684A29A0DC80008BF870 /* CoordinatorAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FF8684929A0DC80008BF870 /* CoordinatorAssembly.swift */; };
@@ -38,7 +41,7 @@
 		6F5021D329A62432009BD2A0 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		6F85023A299F9EE0001F9B5A /* MVVM+C.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MVVM+C.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F85023D299F9EE0001F9B5A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		6F850241299F9EE0001F9B5A /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		6F850241299F9EE0001F9B5A /* CoinsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinsViewController.swift; sourceTree = "<group>"; };
 		6F850244299F9EE0001F9B5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6F850246299F9EE1001F9B5A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6F850249299F9EE1001F9B5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -48,7 +51,7 @@
 		6F85025A299FA0F7001F9B5A /* Dependency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dependency.swift; sourceTree = "<group>"; };
 		6F85025C299FA11E001F9B5A /* ViewControllerAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerAssembly.swift; sourceTree = "<group>"; };
 		6F85025E299FA129001F9B5A /* ViewModelAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelAssembly.swift; sourceTree = "<group>"; };
-		6F850262299FA1AC001F9B5A /* FirstViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewModel.swift; sourceTree = "<group>"; };
+		6F850262299FA1AC001F9B5A /* CoinsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinsViewModel.swift; sourceTree = "<group>"; };
 		6F8A205E29A64DEE007D51B0 /* Coin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coin.swift; sourceTree = "<group>"; };
 		6F8A206029A64EA7007D51B0 /* NetworkRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkRequest.swift; sourceTree = "<group>"; };
 		6F8A206329A6504A007D51B0 /* CoinsRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinsRequest.swift; sourceTree = "<group>"; };
@@ -56,6 +59,9 @@
 		6F8A206B29A756B7007D51B0 /* APIServicePrtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIServicePrtocol.swift; sourceTree = "<group>"; };
 		6F8A206D29A75700007D51B0 /* APIServiceQueryProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIServiceQueryProtocol.swift; sourceTree = "<group>"; };
 		6F8A207029A75EA5007D51B0 /* URLFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLFactory.swift; sourceTree = "<group>"; };
+		6FD80F4329A799D90073B085 /* CoinsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinsTableViewCell.swift; sourceTree = "<group>"; };
+		6FD80F4429A799D90073B085 /* CoinsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CoinsTableViewCell.xib; sourceTree = "<group>"; };
+		6FD80F4829A79C070073B085 /* TableView+Extention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TableView+Extention.swift"; sourceTree = "<group>"; };
 		6FF8684129A0D3EB008BF870 /* Controllers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Controllers.swift; sourceTree = "<group>"; };
 		6FF8684629A0D712008BF870 /* AppStep.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStep.swift; sourceTree = "<group>"; };
 		6FF8684929A0DC80008BF870 /* CoordinatorAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorAssembly.swift; sourceTree = "<group>"; };
@@ -114,15 +120,16 @@
 		6F85023C299F9EE0001F9B5A /* MVVM+C */ = {
 			isa = PBXGroup;
 			children = (
-				6F5021D529A64AE2009BD2A0 /* Networking */,
 				6F85023D299F9EE0001F9B5A /* AppDelegate.swift */,
 				6F5021D329A62432009BD2A0 /* SceneDelegate.swift */,
 				6F850260299FA18D001F9B5A /* Scens */,
+				6F5021D529A64AE2009BD2A0 /* Networking */,
 				6F8A205D29A64DE2007D51B0 /* Model */,
 				6F850256299FA0A8001F9B5A /* Dependency */,
 				6FF8684029A0D3D5008BF870 /* Controllers */,
 				6F850251299F9FEE001F9B5A /* Coordinator */,
 				6FF8684329A0D6E0008BF870 /* UI Layer */,
+				6FD80F4729A79B740073B085 /* Extentions */,
 				6F850243299F9EE0001F9B5A /* Main.storyboard */,
 				6F850246299F9EE1001F9B5A /* Assets.xcassets */,
 				6F850248299F9EE1001F9B5A /* LaunchScreen.storyboard */,
@@ -162,18 +169,19 @@
 		6F850260299FA18D001F9B5A /* Scens */ = {
 			isa = PBXGroup;
 			children = (
-				6F850261299FA194001F9B5A /* FirstViewController */,
+				6F850261299FA194001F9B5A /* CoinsViewController */,
 			);
 			path = Scens;
 			sourceTree = "<group>";
 		};
-		6F850261299FA194001F9B5A /* FirstViewController */ = {
+		6F850261299FA194001F9B5A /* CoinsViewController */ = {
 			isa = PBXGroup;
 			children = (
-				6F850241299F9EE0001F9B5A /* FirstViewController.swift */,
-				6F850262299FA1AC001F9B5A /* FirstViewModel.swift */,
+				6FD80F4029A799AB0073B085 /* Cell */,
+				6F850241299F9EE0001F9B5A /* CoinsViewController.swift */,
+				6F850262299FA1AC001F9B5A /* CoinsViewModel.swift */,
 			);
-			path = FirstViewController;
+			path = CoinsViewController;
 			sourceTree = "<group>";
 		};
 		6F8A205D29A64DE2007D51B0 /* Model */ = {
@@ -208,6 +216,23 @@
 				6F8A207029A75EA5007D51B0 /* URLFactory.swift */,
 			);
 			path = Helpers;
+			sourceTree = "<group>";
+		};
+		6FD80F4029A799AB0073B085 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				6FD80F4329A799D90073B085 /* CoinsTableViewCell.swift */,
+				6FD80F4429A799D90073B085 /* CoinsTableViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		6FD80F4729A79B740073B085 /* Extentions */ = {
+			isa = PBXGroup;
+			children = (
+				6FD80F4829A79C070073B085 /* TableView+Extention.swift */,
+			);
+			path = Extentions;
 			sourceTree = "<group>";
 		};
 		6FF8684029A0D3D5008BF870 /* Controllers */ = {
@@ -313,6 +338,7 @@
 			files = (
 				6F85024A299F9EE1001F9B5A /* LaunchScreen.storyboard in Resources */,
 				6F850247299F9EE1001F9B5A /* Assets.xcassets in Resources */,
+				6FD80F4629A799D90073B085 /* CoinsTableViewCell.xib in Resources */,
 				6F850245299F9EE0001F9B5A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -368,21 +394,23 @@
 			files = (
 				6F8A206129A64EA7007D51B0 /* NetworkRequest.swift in Sources */,
 				6FF8684A29A0DC80008BF870 /* CoordinatorAssembly.swift in Sources */,
+				6FD80F4529A799D90073B085 /* CoinsTableViewCell.swift in Sources */,
 				6FF8684729A0D712008BF870 /* AppStep.swift in Sources */,
 				6F8A206429A6504A007D51B0 /* CoinsRequest.swift in Sources */,
 				6F85025B299FA0F7001F9B5A /* Dependency.swift in Sources */,
 				6FF8684229A0D3EB008BF870 /* Controllers.swift in Sources */,
 				6F8A207129A75EA5007D51B0 /* URLFactory.swift in Sources */,
 				6F850253299F9FFC001F9B5A /* Coordinator.swift in Sources */,
-				6F850242299F9EE0001F9B5A /* FirstViewController.swift in Sources */,
+				6F850242299F9EE0001F9B5A /* CoinsViewController.swift in Sources */,
 				6F85025D299FA11E001F9B5A /* ViewControllerAssembly.swift in Sources */,
 				6F850255299FA018001F9B5A /* AppCoordinator.swift in Sources */,
 				6F8A205F29A64DEE007D51B0 /* Coin.swift in Sources */,
+				6FD80F4929A79C070073B085 /* TableView+Extention.swift in Sources */,
 				6F85023E299F9EE0001F9B5A /* AppDelegate.swift in Sources */,
 				6F85025F299FA129001F9B5A /* ViewModelAssembly.swift in Sources */,
 				6F8A206A29A75659007D51B0 /* BaseRequestProtocol.swift in Sources */,
 				6F8A206C29A756B7007D51B0 /* APIServicePrtocol.swift in Sources */,
-				6F850263299FA1AC001F9B5A /* FirstViewModel.swift in Sources */,
+				6F850263299FA1AC001F9B5A /* CoinsViewModel.swift in Sources */,
 				6F5021D429A62432009BD2A0 /* SceneDelegate.swift in Sources */,
 				6F8A206E29A75700007D51B0 /* APIServiceQueryProtocol.swift in Sources */,
 			);

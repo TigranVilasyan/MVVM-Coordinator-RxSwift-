@@ -10,8 +10,8 @@ import UIKit
 
 class Controllers {
     
-    func firstViewController()-> FirstViewController {
-        return Controllers.controllerAt("Main", identifier: "FirstViewController") as! FirstViewController
+    func firstViewController()-> CoinsViewController {
+        return Controllers.controllerAt("Main", identifier: "CoinsViewController") as! CoinsViewController
     }
 }
 extension Controllers {

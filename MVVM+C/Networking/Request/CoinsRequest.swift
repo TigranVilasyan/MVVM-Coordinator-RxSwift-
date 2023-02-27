@@ -19,7 +19,7 @@ class CoinsRequestQuery: APIServiceQueryProtocol {
     var limit: Int
     var offset: Int
     
-    init(limit: Int = 1, offset: Int = 50) {
+    init(limit: Int = 50, offset: Int = 1) {
         self.limit = limit
         self.offset = offset
     }
@@ -28,7 +28,7 @@ class CoinsRequestQuery: APIServiceQueryProtocol {
         return [
             "referenceCurrencyUuid": "yhjMzLPhuIDl",
             "timePeriod": "24h",
-            "tiers": "2",
+            "tiers": "1",
             "orderBy": "marketCap",
             "orderDirection": "desc",
             "limit": String(limit),
@@ -49,7 +49,7 @@ class CoinsRequestQuery: APIServiceQueryProtocol {
     }
     
     func requestContentTipe() -> ContentType {
-        return .json
+        return .formUrlencoded
     }
     
     func requestCustomHeaders() -> [String: String]? {

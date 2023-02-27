@@ -11,9 +11,9 @@ import Swinject
 
 class ViewControllerAssembly: Assembly {
     func assemble(container: Container) {
-        container.register(FirstViewController.self) { r in
+        container.register(CoinsViewController.self) { r in
             let vc = Controllers().firstViewController()
-            vc.inject(viewModel: r.resolve(FirstViewModelType.self)!)
+            vc.inject(viewModel: r.resolve(CoinsViewModelType.self)!)
             return vc
         }
     }
